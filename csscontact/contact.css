@@ -1,6 +1,5 @@
 
-/* font-family:mogen;
-src: url(font/Mogen-Bold.otf); */
+
 @font-face {
     font-family:babysparkle ;
     src: url(../fontcontact/babysparkle.otf); 
@@ -34,7 +33,7 @@ html {
     font-size: 62.5%;
 }
 
-* { margin:0.2rem;
+* { 
     box-sizing: border-box;
 }
 
@@ -47,8 +46,8 @@ img {
     max-width: 100%;
 }
 
-iframe { align-content: center;
-    max-width: 80%;
+iframe { 
+    max-width: 100%;
     border: 1px solid green;
 }
 
