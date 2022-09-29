@@ -1,3 +1,21 @@
+@font-face {
+    font-family:babysparkle ;
+    src: url(../fontcontact/babysparkle.otf); 
+} 
+    
+@font-face {
+ font-family:blackjack ;
+ src: url(../fontcontact/blackjack.otf); 
+} 
+
+header{
+    background-color: rgb(0, 255, 94) ;
+}
+footer{
+    background-color:brown;
+    text-align:center ;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -13,6 +31,8 @@ body {
 
 img {
     max-width: 100%;
+    
+    
 }
 
 h1 {
@@ -21,6 +41,7 @@ h1 {
 h2{
     font-size: 3rem;
 }
+
 
 .contenedor {
     max-width: 1200px;
