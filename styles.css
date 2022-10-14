@@ -316,10 +316,11 @@ main {
 
 /* Boton ver mas tienda */
 
-.contenedor_boton {
+.contenedor_boton a{
     width: 100%;
     display: flex;
     padding: 30px 0px;
+    text-decoration: none;
 }
 
 .contenedor_boton input {
