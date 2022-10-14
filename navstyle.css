@@ -1,0 +1,128 @@
+.navbar{
+    height: 100px;
+}
+
+.container__navbar{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    padding: 40px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.logo img{
+    width: 100px;
+}
+.menu{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    
+}
+
+.menu nav ul{
+    display: flex;
+    
+}
+
+.menu nav ul li{
+    padding: 0px 20px;
+    list-style: none;
+    border-bottom: solid 1px #cb9a4e;
+    padding-bottom: 5px;
+}
+
+.menu nav ul li a{ 
+    font-size: 19px ;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(29, 27, 27);
+    transition: opacity 300ms;
+    
+}
+
+.menu nav ul li a:hover{
+    opacity: 0.6;
+    
+}
+
+
+#icon_menu{
+    display: none;
+}
+
+.navdecor{
+    width: 200px;
+}
+
+/* Header / Navbar Responsive  */
+
+@media (max-width: 768px){
+
+    .logoviveroright{
+        display: none;
+    }
+
+    .logoright{
+        display: none;
+    }
+
+    .container__navbar{
+        padding: 20px;
+        height: auto;
+        
+    }
+
+    #icon_menu{
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 1;
+        color: #503916;
+    }
+
+
+    .menu{
+        height: 0px;
+        position: absolute;
+        right: 20px;
+        top: 85px;
+        overflow: hidden;
+        z-index: 10;
+        transition: all 300ms;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 20px;
+        
+       
+    }
+
+    .menu nav ul{
+        padding: 20px 0px;
+        flex-direction: column;
+        background-color: #fff;
+        box-shadow: 0px 0px 30px -20px rgba(0,0,0,0.5);
+        
+    }
+
+    .menu nav ul li{
+        padding: 10px 40px;
+    }
+        /* CLASE MANIPULADA POR JS */
+    .mostrar_menu{ 
+        height: 235px;
+        
+    }
+}
