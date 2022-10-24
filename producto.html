@@ -5,24 +5,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="img/logovivero.png" type="image/x-icon">
     <link rel="stylesheet" href="styleproductos.css">
+    <link rel="stylesheet" href="navstyle.css">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e7d942edce.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="csscontact/contact.css">
      <script src="https://kit.fontawesome.com/e4bfdde0dc.js" crossorigin="anonymous"></script>
+     <link rel="shortcut icon" href="img/logovivero.png" type="image/x-icon">
+    <title>Giardino dei Fiori</title>
+    
 </head>
 
 <body>
-    <header >
-        <nav>
-            <a  href="index.html">Home  </a>
-            <a  href="about.html">Acerca de</a>
-            <a  href="contact.html"> Contacto</a>
-        </nav>
-        <h1 class = "header">GIARDINO DEI FIORI</h1>
-    </header>
+    <!--Comienzo Navbar -->
+    <div class="navbar">
+        <div class="container__navbar">
 
+            <div class="logo">
+                <img src="img/logovivero.png" alt="">
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="conocenos.html">Conocenos</a></li>
+                        <li><a href="producto.html">Productos</a></li>
+                        <li><a href="sucursales.html">Nuestras Sucursales</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- <i class="fa-solid fa-bars" id="icon_menu"> </i>  -->
+            <div class="logo logoright">
+                <img src="img/logovivero.png" class="logoviveroright" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="banner_container">
+            <div class="titulo_container contenedor">
+                <h1 class="titulo">Giardino dei Fiori</h1>
+            </div>
+
+        </div>
+    </header>
+    
+    <main>
     <div class="contenedor dos-columnas">
         <article class="entrada-blog">
             <h2>POTHUS</h2>
@@ -98,11 +129,42 @@
             <p>$690,00</p>
         </article>
     </div>
-    <footer>
-        <a href="http://www.twitter.com/BRUNOED2022" target="_blank" > <i class="fa fa-twitter" aria-hidden="true"></i> </a>
-        <a href="https://www.facebook.com/EDGARBRU69" target="_blank" > <i class="fa fa-facebook-f" aria-hidden="true"></i> </a>
-        <a href="http://www.instagram.com/edbruno2022" target="_blank" > <i class="fa fa-instagram" aria-hidden="true"></i> </a>
-            <p > Derechos reservados @2020"</p>    
+    
+    </main>
+    <footer class="footer">
+        <div class="container__footer">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Nuestra Compañía</h4>
+                    <ul>
+                        <li><a href="conocenos.html">Conocenos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4> ¿Necesitas Ayuda?</h4>
+                    <ul>
+                        <li><a href="#">Sucursales</a></li>
+                        <li><a href="contactform.html">Formulario de Contacto</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Tienda</h4>
+                    <ul>
+                        <li><a href="producto.html">Productos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>¡Síguenos!</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
