@@ -1,23 +1,47 @@
+
+
+
+@font-face {
+    font-family:babysparkle ;
+    src: url(babysparkle.otf); 
+} 
+    
+@font-face {
+ font-family:blackjack ;
+ src: url(blackjack.otf); 
+} 
+ 
+ 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+}
+ 
+
+ 
+html {
+     font-size: 62.5%;
 }
 
 body {
     background: #f5f5f5;
+     font-size: 1.6rem;
+    line-height: 1.2;  
 }
+
+
 /* Titulo de la página */
 
-h1 {
+.titulo {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
+    
 }
 
 .contenedor {
@@ -40,12 +64,15 @@ h1 {
 
 .banner_container {
     height: 20vh;
-    background-image: url(/img/banner5.png);
+    background-image: url(img/banner5.png);
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     margin-top: 30px;
     background-position: center;
+}
+p , ul {
+    font-size: 2rem;
 }
 
 /* Titulo principal responsive */
@@ -56,34 +83,7 @@ h1 {
     }
 
 }
-
-@font-face {
-    font-family:babysparkle ;
-    src: url(../fontcontact/babysparkle.otf); 
-} 
-    
-@font-face {
- font-family:blackjack ;
- src: url(../fontcontact/blackjack.otf); 
-} 
-
-header{
-    background-color:rgb(150, 213, 23);
-}
-footer{
-    background-color:brown;
-    text-align:center ;
-}
-
-html {
-    font-size: 62.5%;
-}
-
-body {
-    background-color:whitesmoke;
-   
-    font-size: 1.6rem;
-}
+/*cuerpo*/
 
 img {
 
@@ -94,12 +94,13 @@ img {
 
 h1 {
 
-    background-color: rgb(201, 239, 145);
-    font-size: 2rem;
+    font-size: 4rem;
 }
 h2{
-    background-color: rgb(113, 194, 163);
+
     background-position-y: center;
+    font-size: 3.2rem;
+    font-family:"blackjack", sans-serif; 
     font-size: 3rem;
 }
 
@@ -112,8 +113,7 @@ h2{
 
 .entrada-blog a {
     display: inline-block;
-    background-color: #c5db1f;
-    color: rgb(188, 213, 58);
+    
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
@@ -127,11 +127,14 @@ h2{
 
 @media (min-width: 480px) {
     .dos-columnas {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 2rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 }
+
+
+
 
 /* FOOTER SECTION */
 
@@ -145,7 +148,7 @@ h2{
     flex-wrap: wrap;
 }
 
-ul {
+.footer ul {
     list-style: none;
 }
 
